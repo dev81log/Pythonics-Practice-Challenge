@@ -54,10 +54,6 @@ e conferindo cada etapa do seu progresso.
 import sys
 
 
-# +++ SUA SOLUÇÃO +++
-# Defina as funções print_words(filename) e print_top(filename).
-
-
 # A função abaixo chama print_words() ou print_top() de acordo com os
 # parêtros do programa.
 def main():

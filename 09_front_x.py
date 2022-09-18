@@ -11,9 +11,9 @@ Dica: Isso pode ser resolvido criando 2 listas e ordenando cada uma
 antes de combina-las.
 """
 
+
 def front_x(words):
-    # +++ SUA SOLUÇÃO +++
-    return
+    return sorted(words, key=lambda x: (x[0] != 'x', x))
 
 
 # --- Daqui para baixo são apenas códigos auxiliáries de teste. ---

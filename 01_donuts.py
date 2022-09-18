@@ -9,15 +9,9 @@ Exemplo: donuts(5) retorna 'Number of donuts: 5'
 e donuts(23) retorna 'Number of donuts: many'
 """
 
+
 def donuts(count):
     return 'Number of donuts: {}'.format(count if count < 10 else 'many')
-    
-    # +++ SUA SOLUÇÃO +++
-    # if count < 10:
-    #     msg = f'Number of donuts: {count}'
-    # else:
-    #     msg = 'Number of donuts: many'
-    # return msg
 
 
 # --- Daqui para baixo são apenas códigos auxiliáries de teste. ---

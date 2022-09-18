@@ -9,9 +9,17 @@ A sua solução deve rodar em tempo linear, ou seja, deve fazer uma
 única passagem em cada uma das listas.
 """
 
+
 def linear_merge(list1, list2):
-    # +++ SUA SOLUÇÃO +++
-    return
+    lista = []
+    while list1 and list2:
+        if list1[0] < list2[0]:
+            lista.append(list1.pop(0))
+        else:
+            lista.append(list2.pop(0))
+    lista.extend(list1)
+    lista.extend(list2)
+    return lista
 
 
 # --- Daqui para baixo são apenas códigos auxiliáries de teste. ---
